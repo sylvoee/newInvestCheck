@@ -1,0 +1,45 @@
+
+
+.main{
+  background-color: rgb(29, 12, 129);
+  color:#f8f5f5;
+  padding:2em;
+  width:100%;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+}
+
+nav{
+  background-color: rgb(236, 214, 252);
+}
+
+.home,.contact, .not-found{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding:1em;
+}
+
+.stocks{
+  transform: skewY(3deg);
+  perspective: 400px;
+  
+}
+
+ /* .stocks:hover{
+  background-color: purple;
+  color:white;
+} */
+
+.banner-img{
+  padding-right: 7em;
+  
+}
+
+.footer{
+  background-color: rgb(228, 214, 252);
+ padding:3em;
+}
+
+.footer p{
+  text-align: center;
+}
