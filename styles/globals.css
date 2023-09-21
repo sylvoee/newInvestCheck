@@ -1,4 +1,7 @@
-
+body{
+  background-color: rgb(240, 233, 252);
+  padding:3em;
+}
 
 .main{
   background-color: rgb(29, 12, 129);
@@ -35,6 +38,10 @@ nav{
   
 }
 
+.btn-submit{
+  background-color:rgb(62, 247, 25);
+}
+
 .footer{
   background-color: rgb(228, 214, 252);
  padding:3em;
@@ -43,3 +50,6 @@ nav{
 .footer p{
   text-align: center;
 }
+
+
+
