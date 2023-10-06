@@ -40,7 +40,8 @@ const Page = async() => {
           <div className ="row p-1 m-2">
 
           {stocks.results.slice(0, 80).map(st =>(
-            <div className = "col-sm-3 shadow-lg mb-4" key = {st.T}>
+            <div className = "col-sm-3 shadow-lg mb-4" style={{ boxSizing: 'borderBox'}} key = {st.T}>
+            <hr className='border-4'></hr>
               
               <div className = "stocks shadow-lg">
               <h3 className ="bg-warning text-dark shadow-lg">{st.T}</h3>
@@ -60,7 +61,7 @@ const Page = async() => {
             <p className = " text-warning"> Closing Price: </p> <b className = "d-flex justify-content-end">{st.c}</b> 
       
                 
-          <button className = "btn btn-warning text-light w-100"><Link className ="text-dark" href ="#">More</Link></button>
+          <button className = "btn btn-info  text-light w-100"><Link className ="text-success text-decoration-none" href ="#">.....</Link></button>
 
               </div>
               

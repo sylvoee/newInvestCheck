@@ -3,6 +3,7 @@ body{
   padding:3em;
   font-family: cursive;
   color: rgb(8, 8, 194);
+  box-sizing: border-box;
  
 }
 
