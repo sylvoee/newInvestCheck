@@ -11,7 +11,7 @@ body{
   color:#f8f5f5;
   padding:2em;
   width:100%;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+  
 }
 
 #myNavbar a{

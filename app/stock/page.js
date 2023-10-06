@@ -39,7 +39,7 @@ const Page = async() => {
           
           <div className ="row p-1 m-2">
 
-          {stocks.results.map(st =>(
+          {stocks.results.slice(0, 80).map(st =>(
             <div className = "col-sm-3 shadow-lg mb-4" key = {st.T}>
               
               <div className = "stocks shadow-lg">

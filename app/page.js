@@ -1,18 +1,19 @@
 import Head from 'next/head' ;
 import Image from 'next/image';
+import Link from 'next/link';
 
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div className ="main container-fluid">
+    <div className ="main">
        {/* main start here */}
   <div className = "home">
         
     <div className = "row">
        <div className = "col-sm-4 image-banner d-none d-md-block">
         <Image width ={370} height = {370} className ="banner-img mb-2" src="/svg_img/banner2.png" alt="" />
-        <button className = "btn btn-success">Check here</button>
+        <button className = "btn btn-success"> <Link className='text-light text-decoration-none' href='/contact'> Contact us </Link> </button>
         </div>
 
        {/* caption starts here */}
@@ -28,7 +29,7 @@ export default function Home() {
         <p className='text-warning'>
           ............................
         </p>
-       <a href='/about'> <button className = "btn btn-info text-danger">Check stock</button></a>
+       <a href='/stock'> <button className = "btn btn-info text-danger">Check stock</button></a>
       </div>
      
        </div>
